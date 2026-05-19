@@ -26,7 +26,7 @@ jobs:
       - name: Commit and push
         run: |
           git config user.name "github-actions"
-          git config.user.email "github-actions@github.com"
+          git config user.email "github-actions@github.com"
           git add clean.txt
           git diff --staged --quiet || git commit -m "Auto-update clean servers $(date +'%Y-%m-%d %H:%M:%S')"
           git push
