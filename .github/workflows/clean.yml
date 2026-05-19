@@ -1,4 +1,4 @@
-name: Clean VLess Servers
+name: Clean VLess Server
 
 on:
   schedule:
