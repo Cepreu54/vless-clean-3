@@ -12,16 +12,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download and filter servers (only countries with good ping from St. Petersburg)
+      - name: Download and filter servers (only remove Russian servers)
         run: |
           curl -s "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt" | \
-          grep -v '%F0%9F%87%B7%F0%9F%87%BA' | \
-          grep -E '%F0%9F%87%AB%F0%9F%87%AE|%F0%9F%87%B1%F0%9F%87%BB|%F0%9F%87%B1%F0%9F%87%B9|%F0%9F%87%B5%F0%9F%87%B1|%F0%9F%87%A9%F0%9F%87%AA|%F0%9F%87%B8%F0%9F%87%AA|%F0%9F%87%B3%F0%9F%87%B1|%F0%9F%87%A6%F0%9F%87%B9' > clean.txt
+          grep -v '%F0%9F%87%B7%F0%9F%87%BA' > clean.txt
 
       - name: Count servers
         run: |
           count=$(wc -l < clean.txt)
-          echo "✅ Оставлено серверов из ближней Европы: $count"
+          echo "✅ Оставлено серверов (все, кроме российских): $count"
 
       - name: Commit and push
         run: |
