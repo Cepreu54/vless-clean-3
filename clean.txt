@@ -1,2 +1,2 @@
-vless://3f4e2e66-0670-4bb6-8dcf-20a535314b17@176.109.85.88:4443?fp=firefox&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
-vless://43e1373c-ca2c-5c20-ad1d-3b34ce61025e@84.201.146.8:443?encryption=none&type=xhttp&security=reality&extra=null&fp=firefox&sni=max.ru&pbk=KR2tU5Ozrtgk4qxx_h3Pt9LgPsQ5rjLzraod0PJFSTI#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5B%2ACIDR%5D%20YA
+vless://3f4e2e66-0670-4bb6-8dcf-20a535314b17@176.109.85.88:4443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ns&fp=firefox&sni=id.pervye.ru&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
+vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@141.98.87.48:9999?type=raw&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
